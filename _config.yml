@@ -11,7 +11,7 @@ timezone:
 
 title: Worg.io # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Practical applications of artificial intelligence, cybersecurity, and data science. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Practical applications of artificial intelligence, cybersecurity, and data science.
