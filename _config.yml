@@ -69,7 +69,7 @@ theme_mode: dark # [light | dark]
 # e.g. 'https://cdn.com'
 img_cdn:
 # the avatar on sidebar, support local or CORS resources
-avatar: https://worg-cdn.netlify.app/images/worg-transparent.png
+avatar: https://worg-cdn.netlify.app/images/worg-transparent-light.png
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
