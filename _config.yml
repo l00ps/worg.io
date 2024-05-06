@@ -8,7 +8,6 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
 
 title: Chirpy # the main title
 
@@ -41,7 +40,6 @@ social:
 
 google_site_verification: # fill in to your verification string
 
-# ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
@@ -50,16 +48,6 @@ google_analytics:
 goatcounter:
   id: # fill in your Goatcounter ID
 
-    
-        
-          
-    
-
-        
-        Expand All
-    
-    @@ -66,7 +62,7 @@ goatcounter:
-  
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
@@ -127,17 +115,6 @@ paginate: 10
 baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
-
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
   
 kramdown:
   syntax_highlighter: rouge
