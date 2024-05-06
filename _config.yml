@@ -1,44 +1,43 @@
 # The Site Configuration
-
 # Import the theme
 theme: jekyll-theme-chirpy
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
-
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone:
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Worg, Inc. # the main title
+title: Chirpy # the main title
 
-tagline: Est. 2024 # it will display as the sub-title
+tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Artificial intelligence, cybersecurity, and rage.
-
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://worg.io"
+url: ""
 
-# github:
-#   username: l00ps # change to your github username
+github:
+  username: github_username # change to your github username
 
-# twitter:
-#   username: twitter_username # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Worg, Inc.
-  email: begin@worg.io
+  name: your_full_name
+  email: example@domain.com # change to your email address
   links:
-    # - https://github.com/username # change to your github homepage
-    # - https://www.linkedin.com/in/loops
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/username # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 
@@ -46,11 +45,21 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-0YCLH7JVKE # fill in your Google Analytics ID
+  id: # fill in your Google Analytics ID
 
 goatcounter:
   id: # fill in your Goatcounter ID
 
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -66,7 +62,7 @@ goatcounter:
+  
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
@@ -62,25 +71,38 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -126,7 +122,7 @@ pwa:
+  
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
 img_cdn:
-
 # the avatar on sidebar, support local or CORS resources
 avatar:
-
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
-
 # boolean type, the global switch for TOC in posts.
 toc: true
-
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
@@ -100,7 +122,6 @@ comments:
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
-
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
@@ -108,7 +129,6 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
-
 pwa:
   enabled: true # the option for PWA feature (installable)
   cache:
@@ -118,7 +138,6 @@ pwa:
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
 paginate: 10
 
 # The base URL of your site
@@ -126,6 +145,17 @@ baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
@@ -136,12 +166,10 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
 collections:
   tabs:
     output: true
     sort_by: order
-
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
@@ -167,10 +195,8 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-
 sass:
   style: compressed
-
 compress_html:
   clippings: all
   comments: all
@@ -179,7 +205,6 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -189,7 +214,6 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
-
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
